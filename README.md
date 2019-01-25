@@ -1,15 +1,44 @@
-# Vapor Clean
+![Swift](https://img.shields.io/badge/swift-4.2.1-orange.svg?style="flat"&logo="swift")
 
-This is a template for Vapor 3 users that does the absolute minimum to set up a working Vapor 3 environment.
+# My personal website
 
-Unlike the official templates that are currently available, this template does not include vast swathes of extra example code that you will always need to delete. Instead, it adds just a single “hello” route so you can be sure everything is working correctly.
+This repository holds the Vapor project running my website, https://www.nicksetliff.com. The latest Master branch is what is currently deployed on my server.
 
-Although this repository contains a LICENSE file, this is meant for you to replace with whatever license you intend to use – please consider what little code is in this repository as public domain, and yours to do with as you please.
+This is my first project using a web framework to serve dynamic content. I went with Vapor as I'm already familiar with Swift and I've heard good things about it. 
 
-It’s my hope that the official Vapor project will add a template similar to this one at some point in the future, but until then please use this however you want.
+## Getting Started
 
-## Try it out
 
-If you have already installed the Vapor toolbox, you can create a new Vapor project from this repo using the following command:
+### Prerequisites
 
-    vapor new MyProject --template=twostraws/vapor-clean
+This project uses the Vapor framework, so you'll need a machine running Ubuntu or OS X with swift and vapor installed.
+
+### Installing
+
+```bash
+git clone https://github.com/nickset/nicksetliff.git
+cd nicksetliff
+vapor build
+```
+
+If you're using OS X you can generate an Xcode project with
+```bash
+vapor xcode
+```
+
+## Built With
+
+* [Vapor](https://github.com/vapor/vapor)
+* [Bootstrap](https://github.com/twbs/bootstrap)
+
+## Authors
+
+* **Nick Setliff**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+* [Hover.css](https://github.com/IanLunn/Hover)
