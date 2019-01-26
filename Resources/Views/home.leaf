@@ -1,32 +1,15 @@
 #set("title") {Home}
 #set("body") {
-<svg width="668" height="358" viewBox="0 0 668 358" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_d)">
-        <rect x="4" y="37" width="660" height="313" fill="#282C34"/>
-    </g>
-    <ellipse cx="24.9978" cy="58" rx="8.99781" ry="9" fill="#FF5F56"/>
-    <ellipse cx="56.9978" cy="58" rx="8.99781" ry="9" fill="#FFBD2E"/>
-    <ellipse cx="88.9978" cy="58" rx="8.99781" ry="9" fill="#27C93F"/>
-    <text class="typewriter h1" fill="#FBFBFB" xml:space="preserve" style="white-space: pre" font-family="Source Code Pro" font-size="48" letter-spacing="0em"><tspan x="190.094" y="167.232">Developer.</tspan></text>
-    <text fill="#FBFBFB" xml:space="preserve" style="white-space: pre" font-family="Source Code Pro" font-size="48" letter-spacing="0em"><tspan x="204.484" y="228.232">Engineer.</tspan></text>
-    <text fill="#FBFBFB" xml:space="preserve" style="white-space: pre" font-family="Source Code Pro" font-size="48" letter-spacing="0em"><tspan x="218.875" y="289.232">Veteran.</tspan></text>
-    <path d="M302.288 18.4387L334 0.28833L365.713 18.4387V54.4725L334 72.7119L302.288 54.4725V18.4387Z" fill="white"/>
-    <path d="M334.017 3.13525L362.862 19.8176V53.1378L334 69.8646L305.138 53.1378V19.8621L334.017 3.13525Z" fill="#F88A36"/>
-    <path d="M327.821 15.6472H321.383L316.394 19.8178V31.3703L313.175 34.8319V38.1683L316.394 41.6299V53.1824L321.383 57.3529H327.821L322.832 53.1824V41.6299L319.613 38.1683V34.8319L322.832 31.3703V19.8178L327.821 15.6472Z" fill="#444444"/>
-    <path d="M324.441 21.3192L329.43 17.1486L343.593 51.8479L338.604 55.8516L324.441 21.3192Z" fill="#444444"/>
-    <path d="M340.213 15.647H346.651L351.64 19.8176V31.3701L354.859 34.8317V38.1681L351.64 41.6297V53.1822L346.651 57.3528H340.213L345.203 53.1822V41.6297L348.421 38.1681V34.8317L345.203 31.3701V19.8176L340.213 15.647Z" fill="#444444"/>
-    <defs>
-        <filter id="filter0_d" x="0" y="37" width="668" height="321" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-            <feOffset dy="4"/>
-            <feGaussianBlur stdDeviation="2"/>
-            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-        </filter>
-    </defs>
-</svg>
+    <div class="container">
+       <div class="row justify-content-center">
+            <div class="col-12 col-md-10 mt-4">
+                <div class="code-window">
+                    <img class="ns-logo centered" src="/images/n-logo.svg">
+                    <img id="window-controls" src="/images/window-controls.svg">
+                </div>
+            </div>
+       </div> 
+    </div>
 }
 
 #embed("master")
