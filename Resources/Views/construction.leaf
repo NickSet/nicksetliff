@@ -1,13 +1,13 @@
 #set("title") {Under Construction}
 
 #set("body") {
-<h2 class="text-center">Under Construction</h1>
+<h2 class="text-center primary-color mt-1">Under Construction</h1>
 <p class="text-center">nicksetliff.com is currently under construction, but should be up and running soon</p>
 <div class="row align-items-start justify-content-center">
     <img src="/images/construction-logo.svg" class="m-20 img-fluid">
 </div>
     
-<p class="p-top-40 text-center">Developed in the open and avaiable on GitHub</p>
+<p class="text-center">Developed in the open and avaiable on GitHub</p>
 <div class="github-link centered">
     <a href="https://www.github.com/nickset/nicksetliff">
         <svg class="hvr-grow" width="100%" height="100%" viewBox="0 0 128 128">
