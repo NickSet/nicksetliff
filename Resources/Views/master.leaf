@@ -25,7 +25,7 @@
         <title>#get(title) - NickSetliff.com</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 code-text">
+        <nav class="navbar navbar-expand-md navbar-dark dark-bg mb-4 code-text">
             <a class="navbar-brand" href="#">
                 <img src="/images/n-logo.svg" width="30" height="34" class="d-inline-block align-top" alt="">
                     Nick Setliff
@@ -36,11 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Nick Setliff <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Projects</a>
                     </li>
@@ -53,15 +49,13 @@
                 </ul>
             </div>
         </nav>
+
         <div class="container">
             #get(body)
-            
         </div>
 
         <footer class="footer">
-            <div class="text-center">
-                © 2019 Nick Setliff
-            </div>
+                <p class="text-center"><small>© 2019 Nick Setliff</small></p>
         </footer>
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

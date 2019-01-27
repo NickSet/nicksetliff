@@ -6,6 +6,11 @@
                 <div class="code-window">
                     <img class="ns-logo centered" src="/images/n-logo.svg">
                     <img id="window-controls" src="/images/window-controls.svg">
+                    <div id="description-strings">
+                        <h2 class="code-text text-center"><strong>Developer</strong>.</h3>
+                        <h2 class="code-text text-center"><strong>Engineer</strong>.</h3>
+                        <h2 class="code-text text-center"><strong>Veteran</strong>.</h3>
+                    </div>
                 </div>
             </div>
        </div> 
