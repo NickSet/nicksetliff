@@ -15,7 +15,6 @@ html {
 }
 
 body {
-    margin-bottom: 50px; /* Margin bottom by footer height */
     background-color: var(--main-bg-color);
     color: #DBDFF4;
 }
@@ -52,11 +51,6 @@ body {
     color: #FBFBFB;
 }
 
-.centered {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .github-link {
     margin-top: 10px;
     width: 50px;
@@ -87,8 +81,24 @@ body {
     left: -38px;
 }
 
-#description-strings {
-    text-align: center;
+/* change the background color */
+.navbar-dark {
+    background-color: var(--darker-bg-color);
+}
+/* change the brand and text color */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-text {
+    color: #DBDFF4;
+}
+/* change the link color */
+.navbar-dark .navbar-nav .nav-link {
+    color: #DBDFF4;
+}
+/* change the color of active or hovered links */
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+    color: #D66972;
 }
 
 /* Grow from https://github.com/IanLunn/Hover/ */
