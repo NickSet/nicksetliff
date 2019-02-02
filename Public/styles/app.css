@@ -64,7 +64,7 @@ body {
 .code-window {
     background-color: #282C34;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
-    height: 250px;
+    height: 230px;
     width: 100%;
 }
 
@@ -85,11 +85,18 @@ body {
 .navbar-dark {
     background-color: var(--darker-bg-color);
 }
+
 /* change the brand and text color */
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-text {
     color: #DBDFF4;
 }
+
+/* change the color of hovered brand */
+.navbar-dark .navbar-brand:hover {
+    color: #C678DD;
+}
+
 /* change the link color */
 .navbar-dark .navbar-nav .nav-link {
     color: #DBDFF4;
@@ -98,7 +105,7 @@ body {
 .navbar-dark .nav-item.active .nav-link,
 .navbar-dark .nav-item:focus .nav-link,
 .navbar-dark .nav-item:hover .nav-link {
-    color: #D66972;
+    color: #C678DD;
 }
 
 /* Grow from https://github.com/IanLunn/Hover/ */
