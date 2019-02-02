@@ -7,14 +7,27 @@
                     <img class="ns-logo centered" src="/images/n-logo.svg">
                     <img id="window-controls" src="/images/window-controls.svg">
                     <div id="description-strings">
-                        <h2 class="code-text text-center"><strong>Developer</strong>.</h3>
-                        <h2 class="code-text text-center"><strong>Engineer</strong>.</h3>
-                        <h2 class="code-text text-center"><strong>Veteran</strong>.</h3>
+                        <h2 class="code-text text-center"><strong>Developer</strong>.</br>
+                        &emsp;<strong>Engineer</strong>.</br>
+                        &emsp; &emsp;<strong>Veteran</strong>.</h2>
                     </div>
                 </div>
             </div>
-       </div> 
+       </div>
+       <div class="row">
+           <p class="lead mt-5">
+                Hi, I’m Nick Setliff - a senior software engineering student 
+                at the University of Virginia’s College at Wise. I’m passionate
+                about all things technology, but my major interests include 
+                architechture, design patterns, data structures, and open source 
+                software.
+            </p>
+       </div>
     </div>
+}
+
+#set("scripts") {
+
 }
 
 #embed("master")
