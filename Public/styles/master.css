@@ -23,10 +23,6 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.primary-color {
-    color: #F88A36;
-}
-
 .darkest-bg {
     background-color: #262831;
 }
@@ -49,12 +45,6 @@ body {
     height: 40px;
     background-color: #474A56;
     color: #FBFBFB;
-}
-
-.github-link {
-    margin-top: 10px;
-    width: 50px;
-    height: 50px;
 }
 
 .m-20 {
