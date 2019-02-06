@@ -9,7 +9,7 @@
     <body>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-md navbar-dark mb-4 code-text">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand mono-font" href="/">
                 <img src="/images/n-logo.svg" width="30" height="34" class="d-inline-block align-top" alt="">
                     Nick Setliff
             </a>
@@ -18,16 +18,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item mono-font">
                         <a class="nav-link disabled" href="/construction">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="/construction">Projects</a>
+                    <li class="nav-item mono-font">
+                        <a class="nav-link" href="/projects">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mono-font">
                         <a class="nav-link disabled" href="/construction">Resume</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mono-font">
                         <a class="nav-link disabled" href="/construction">Contact</a>
                     </li>
                 </ul>
