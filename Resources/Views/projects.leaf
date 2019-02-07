@@ -9,7 +9,10 @@
         <rect width="300" height="2" fill="#D8B676"/>
         <rect y="5" width="300" height="2" fill="#D8B676"/>
     </svg>
-    <p class="lead mx-1 mt-3">Below is a collection of projects I've worked on at school and independently. If you're interested in knowing more about any of them, follow the link for a more detailed explanation.</p>
+
+    <p class="lead mx-1 mt-3">Below is a collection of projects I've worked on 
+    at school and independently. If you're interested in knowing more about 
+    any of them, follow the link for a more detailed explanation.</p>
 
     <div class="row mt-3">
         <div class="col-sm project-card hvr-grow-shadow m-2">
@@ -23,15 +26,18 @@
             <img src="images/projects/grocery-app.svg" class="project-icon mt-2">
             <h5 class="project-header mb-1 mt-1 ns-purple">Grocery App</h4>
             <small class="project-header ml-1">iOS Application</small>
-            <p class="mt-3 project-text">Personal project that uses FireBase to sync a shared grocery list in real time.</p>
+            <p class="mt-3 project-text">
+            The most recent App I have built (still without a name) uses 
+            Google's Firebase to sync a database between two users in 
+            real time.</p>
         </div>
         <div class="col-sm project-card hvr-grow-shadow m-2">
             <img src="images/projects/augmentedcampus.svg" class="project-icon mt-2">
             <h5 class="project-header mb-1 mt-1 ns-purple">Augmented Campus</h4>
             <small class="project-header ml-1">iOS Application</small>
             <p class="mt-3 project-text">
-                School project that utilizes augmented reality to help students 
-                and visitors nagivate around UVA-Wise campus.
+                Augmented Campus is a navigational app that utilizes ARKit 
+                to help students and visitors navigate around campus.
             </p>
         </div>
     </div>
@@ -41,8 +47,8 @@
             <h5 class="project-header mb-1 mt-1 ns-purple">Augmented Campus</h4>
             <small class="project-header ml-1">iOS Application</small>
             <p class="mt-3 projet-text">
-                Personal project that stores important client information for a 
-                cosmetologist.
+                My first ever app, Stylist Book uses CoreData to store 
+                important client information for a cosmetologist.
             </p>
         </div>
     </div>
