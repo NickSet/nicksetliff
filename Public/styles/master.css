@@ -33,11 +33,6 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-.container {
-    width: auto;
-    max-width: 880px;
-}
-
 .invisible {
     visibility: hidden;
 }
@@ -47,10 +42,6 @@ body {
     height: 40px;
     background-color: #474A56;
     color: #FBFBFB;
-}
-
-.m-20 {
-    margin: 20px;
 }
 
 .code-window {
