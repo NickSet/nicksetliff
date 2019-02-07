@@ -3,6 +3,7 @@
   --darker-bg-color: #262831;
   --medium-bg-color: #282C34;
   --grey-bg-color: #474A56;
+  --purple-font-color: #C678DD;
 }
 
 .dark-bg {
@@ -17,17 +18,18 @@ html {
 body {
     background-color: var(--main-bg-color);
     color: #DBDFF4;
+    font-family: 'Lato', sans-serif;
 }
 
-.primary-text {
-    font-family: 'Lato', sans-serif;
+.ns-purple {
+    color: var(--purple-font-color);
 }
 
 .darkest-bg {
     background-color: #262831;
 }
 
-.code-text {
+.mono-font {
     font-family: 'Source Code Pro', monospace;
 }
 
