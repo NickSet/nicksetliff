@@ -11,6 +11,11 @@ public func routes(_ router: Router) throws {
         let context = [String: String]()
         return try req.view().render("home", context)
     }
+
+    router.get("contact") { req -> Future<View> in
+        let context = [String: String]()
+        return try req.view().render("contact", context) 
+    }
     
     router.get("projects") { req -> Future<View> in
         let context = [String: String]()

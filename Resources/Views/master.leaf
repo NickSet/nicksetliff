@@ -30,7 +30,7 @@
                             <a class="nav-link disabled" href="/construction">Resume</a>
                         </li>
                         <li class="nav-item mono-font">
-                            <a class="nav-link disabled" href="/construction">Contact</a>
+                            <a class="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
