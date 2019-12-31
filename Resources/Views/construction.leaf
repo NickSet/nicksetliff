@@ -3,8 +3,8 @@
 #set("body") {
 <h2 class="text-center mt-1 mb-0">Under Construction</h2>
 <svg class="mx-auto" width="100%" height="7" viewBox="0 0 300 7" fill="none">
-    <rect width="300" height="2" fill="#C678DD"/>
-    <rect y="5" width="300" height="2" fill="#C678DD"/>
+    <rect width="300" height="2" fill="#D8B676"/>
+    <rect y="5" width="300" height="2" fill="#D8B676"/>
 </svg>
 <p class="text-center mt-2">nicksetliff.com is currently under construction, but should be up and running soon</p>
 <div class="row align-items-start justify-content-center mx-3">
