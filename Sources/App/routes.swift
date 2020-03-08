@@ -1,30 +1,28 @@
-import Routing
-import Vapor
 import Leaf
-
+import Vapor
 /// Register your application's routes here.
 ///
 /// [Learn More →](https://docs.vapor.codes/3.0/getting-started/structure/#routesswift)
-public func routes(_ router: Router) throws {
+func routes(_ app: Application) throws {
     
-    router.get { req -> Future<View> in
+    app.get { req -> EventLoopFuture<View> in
         let context = [String: String]()
-        return try req.view().render("home", context)
+        return req.view.render("home", context)
     }
 
-    router.get("contact") { req -> Future<View> in
+    app.get("contact") { req -> EventLoopFuture<View> in
         let context = [String: String]()
-        return try req.view().render("contact", context) 
+        return req.view.render("contact", context)
     }
     
-    router.get("projects") { req -> Future<View> in
+    app.get("projects") { req -> EventLoopFuture<View> in
         let context = [String: String]()
-        return try req.view().render("projects", context)
+        return req.view.render("projects", context)
     }
 
-    router.get("construction") { req -> Future<View> in
+    app.get("construction") { req -> EventLoopFuture<View> in
         let context = [String: String]()
-        return try req.view().render("construction", context)
+        return req.view.render("construction", context)
     }
 
 }

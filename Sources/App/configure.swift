@@ -1,23 +1,13 @@
-import Vapor
 import Leaf
+import Vapor
 
-/// Called before your application initializes.
-///
-/// [Learn More →](https://docs.vapor.codes/3.0/getting-started/structure/#configureswift)
-public func configure(
-    _ config: inout Config,
-    _ env: inout Environment,
-    _ services: inout Services
-) throws {
-    // Register routes to the router
-    let router = EngineRouter.default()
-    try routes(router)
-    services.register(router, as: Router.self)
-
-    // Configure the rest of your application here
-    try services.register(LeafProvider())
-    config.prefer(LeafRenderer.self, for: ViewRenderer.self)
-    var middleware = MiddlewareConfig.default()
-    middleware.use(FileMiddleware.self)
-    services.register(middleware)
+// Called before your application initializes.
+public func configure(_ app: Application) throws {
+    // Serves files from `Public/` directory
+    app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
+    app.views.use(.leaf)
+    if !app.environment.isRelease {
+        (app.leaf.cache as? DefaultLeafCache)?.isEnabled = false
+    }
+    try routes(app)
 }
