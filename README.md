@@ -1,4 +1,4 @@
-![Swift](https://img.shields.io/badge/swift-4.1-orange.svg?style="flat"&logo="swift")
+![Swift](https://img.shields.io/badge/swift-5.2-orange.svg?style="flat"&logo="swift")
 
 # My personal website
 
