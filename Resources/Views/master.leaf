@@ -1,10 +1,32 @@
 <!doctype html>
 <html lang="en">
     <head>
-        #embed("headContent")
-        #get(styleSheets)
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="This site is the personal and portfolio website of software engineer, Nick Setliff. Stop by and learn some new development techniques or reach out to Nick directly.">
+                  
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Source+Code+Pro" rel="stylesheet">
 
-        <title>#get(title) - NickSetliff.com</title>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/styles/master.css">
+                                    
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favico/favicon-16x16.png">
+        <link rel="manifest" href="/images/favico/site.webmanifest">
+        <link rel="mask-icon" href="/images/favico/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/images/favico/favicon.ico">
+        <meta name="msapplication-TileColor" content="#603cba">
+        <meta name="msapplication-config" content="/images/favico/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        #import("styleSheets")
+
+        <title>#import("title") - NickSetliff.com</title>
     </head>
     <body>
         <!-- Navbar -->
@@ -39,7 +61,7 @@
 
         <!-- Page Content -->
         <div class="container">
-            #get(body)
+            #import("body")
         </div>
 
         <footer id="footer" class="invisible"> 
@@ -51,6 +73,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <script src="/scripts/master.js"></script>
         
-        #get(scripts)
+        #import("scripts")
     </body>
 </html>

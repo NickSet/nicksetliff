@@ -1,17 +1,27 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.2
 import PackageDescription
 
 let package = Package(
     name: "nicksetliff",
+    platforms: [
+        .macOS(.v10_15),
+    ],
     dependencies: [
         // 💧 A server-side Swift web framework.
-        .package(url: "https://github.com/vapor/vapor.git", .upToNextMinor(from: "3.1.0")),
-        .package(url: "https://github.com/vapor/leaf.git", .upToNextMinor(from: "3.0.0"))
+        .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0-rc.1.1"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0-rc.3.1"),
     ],
     targets: [
-        .target(name: "App", dependencies: ["Vapor", "Leaf"]),
-        .target(name: "Run", dependencies: ["App"]),
-        .testTarget(name: "AppTests", dependencies: ["App"]),
+        .target(name: "App", dependencies: [
+            .product(name: "Leaf", package: "leaf"),
+            .product(name: "Vapor", package: "vapor")
+        ]),
+        .target(name: "Run", dependencies: [
+            .target(name: "App"),
+        ]),
+        .testTarget(name: "AppTests", dependencies: [
+            .target(name: "App"),
+        ])
     ]
 )
 
