@@ -1,78 +1,81 @@
-#set("styleSheets") {
-    <link rel="stylesheet" href="/styles/projects.css">
-}
+#extend("master"):
+    #export("title"):
+        Projects
+    #endexport
+    
+    #export("styleSheets"):
+        <link rel="stylesheet" href="/styles/projects.css">
+    #endexport
+    
+    #export("body"):
+        <h2 class="mono-font text-center mt-1 mb-0">Projects</h2>
+        <svg class="mx-auto" width="100%" height="7" viewBox="0 0 300 7" fill="none">
+            <rect width="300" height="2" fill="rgb(216,182,118)"/>
+            <rect y="5" width="300" height="2" fill="rgb(216,182,118)"/>
+        </svg>
 
-#set("title") {Projects}
-#set("body") {
-    <h2 class="mono-font text-center mt-1 mb-0">Projects</h2>
-    <svg class="mx-auto" width="100%" height="7" viewBox="0 0 300 7" fill="none">
-        <rect width="300" height="2" fill="#D8B676"/>
-        <rect y="5" width="300" height="2" fill="#D8B676"/>
-    </svg>
+        <p class="lead mx-1 mt-3">Below is a collection of projects I've worked on
+        at school and independently. If you're interested in knowing more about
+        any of them, follow the link for a more detailed explanation.</p>
 
-    <p class="lead mx-1 mt-3">Below is a collection of projects I've worked on 
-    at school and independently. If you're interested in knowing more about 
-    any of them, follow the link for a more detailed explanation.</p>
-
-    <div class="row">
-        <div class="col-sm mt-3">
-            <a href="https://www.github.com/NickSet/nicksetliff/">
-                <div class="project-card hvr-grow-shadow">
-                    <img src="images/projects/n-logo.svg" class="project-icon mt-2">
-                    <h5 class="project-header mt-1 ml-2 ns-purple">nicksetliff.com</h4>
-                    <small class="project-header ml-2">Vapor Web Application</small>
-                    <p class="ml-2 mt-3 project-text">This is the project behind the website 
-                        you’re on. It's built using Swift 4.2.1 and Vapor 3.0.</p>
-                </div>
-            </a>
+        <div class="row">
+            <div class="col-sm mt-3">
+                <a href="https://www.github.com/NickSet/nicksetliff/">
+                    <div class="project-card hvr-grow-shadow">
+                        <img src="images/projects/n-logo.svg" class="project-icon mt-2">
+                        <h5 class="project-header mt-1 ml-2 ns-purple">nicksetliff.com</h4>
+                        <small class="project-header ml-2">Vapor Web Application</small>
+                        <p class="ml-2 mt-3 project-text">This is the project behind the website
+                            you’re on. It's built using Swift 5.2 and Vapor 4.0.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm mt-3">
+                <a href="https://www.github.com/NickSet/Grocery-App/">
+                    <div class="project-card hvr-grow-shadow">
+                        <img src="images/projects/grocery-app.svg" class="project-icon mt-2">
+                        <h5 class="project-header mt-1 ml-2 ns-purple">Grocery App</h4>
+                        <small class="project-header ml-2">iOS Application</small>
+                        <p class="ml-2 mt-3 project-text">
+                            The most recent App I have built (still without a name) uses
+                            Google's Firebase to sync a database between two users in
+                            real time.
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm mt-3">
+                <a href="https://www.github.com/NickSet/swe-capstone/">
+                    <div class="project-card hvr-grow-shadow">
+                        <img src="images/projects/augmentedcampus.svg" class="project-icon mt-2">
+                        <h5 class="project-header mt-1 ml-2 ns-purple">Augmented Campus</h4>
+                        <small class="project-header ml-2">iOS Application/Web-App</small>
+                        <p class="ml-2 mt-3 project-text">
+                            Augmented Campus is a navigational app that utilizes ARKit
+                            to help students and visitors navigate around campus.
+                        </p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="col-sm mt-3">
-            <a href="https://www.github.com/NickSet/Grocery-App/">
-                <div class="project-card hvr-grow-shadow">
-                    <img src="images/projects/grocery-app.svg" class="project-icon mt-2">
-                    <h5 class="project-header mt-1 ml-2 ns-purple">Grocery App</h4>
-                    <small class="project-header ml-2">iOS Application</small>
-                    <p class="ml-2 mt-3 project-text">
-                        The most recent App I have built (still without a name) uses 
-                        Google's Firebase to sync a database between two users in 
-                        real time.
-                    </p>
-                </div>
-            </a>
+        <div class="row">
+            <div class="col col-md-4 mt-4">
+                <a href="https://www.github.com/NickSet/stylist-book/">
+                    <div class="project-card hvr-grow-shadow">
+                        <img src="images/projects/stylistbook.svg" class="project-icon mt-2">
+                        <h5 class="project-header mt-1 ml-2 ns-purple">Stylist Book</h4>
+                        <small class="project-header ml-2">iOS Application</small>
+                        <p class="ml-2 mt-3 project-text">
+                            My first ever app, Stylist Book uses CoreData to store
+                            important client information for a cosmetologist.
+                        </p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="col-sm mt-3">
-            <a href="https://www.github.com/NickSet/swe-capstone/">
-                <div class="project-card hvr-grow-shadow">
-                    <img src="images/projects/augmentedcampus.svg" class="project-icon mt-2">
-                    <h5 class="project-header mt-1 ml-2 ns-purple">Augmented Campus</h4>
-                    <small class="project-header ml-2">iOS Application/Web-App</small>
-                    <p class="ml-2 mt-3 project-text">
-                        Augmented Campus is a navigational app that utilizes ARKit 
-                        to help students and visitors navigate around campus.
-                    </p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col col-md-4 mt-4">
-            <a href="https://www.github.com/NickSet/stylist-book/">
-                <div class="project-card hvr-grow-shadow">
-                    <img src="images/projects/stylistbook.svg" class="project-icon mt-2">
-                    <h5 class="project-header mt-1 ml-2 ns-purple">Stylist Book</h4>
-                    <small class="project-header ml-2">iOS Application</small>
-                    <p class="ml-2 mt-3 project-text">
-                        My first ever app, Stylist Book uses CoreData to store 
-                        important client information for a cosmetologist.      
-                    </p>
-                </div>
-            </a>
-        </div>
-    </div>
-}
-
-#set("scripts") {
-
-}
-
-#embed("master")
+    #endexport
+    
+    #export("scripts"):
+    #endexport
+    
+#endextend
