@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/vapor/async-kit.git",
         "state": {
           "branch": null,
-          "revision": "094dad1142e4e272a328ab44edd39730f246fb3e",
-          "version": "1.0.0-rc.1"
+          "revision": "8e2cad80dd9f62f0349a2a78ab8c81fb456f4d4a",
+          "version": "1.1.1"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/vapor/console-kit.git",
         "state": {
           "branch": null,
-          "revision": "de99d83c9f3c298371002729cc0601e4b5d9e0c9",
-          "version": "4.0.0-rc.1"
+          "revision": "4ffc23dd1d6454228f78194ef68d8b20fca9390a",
+          "version": "4.1.1"
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/vapor/routing-kit.git",
         "state": {
           "branch": null,
-          "revision": "dbc3eafdbe243e9a46eeb6fd7d99266bee52f89f",
-          "version": "4.0.0-rc.1"
+          "revision": "e7f2d5bd36dc65a9edb303541cb678515a7fece3",
+          "version": "4.1.0"
         }
       },
       {
@@ -114,8 +114,8 @@
         "repositoryURL": "https://github.com/apple/swift-nio-http2.git",
         "state": {
           "branch": null,
-          "revision": "65ebab9db70623bf1b58305edaa26ee5629856ed",
-          "version": "1.9.1"
+          "revision": "c5d10f4165128c3d0cc0e3c0f0a8ef55947a73a6",
+          "version": "1.12.2"
         }
       },
       {
@@ -132,8 +132,8 @@
         "repositoryURL": "https://github.com/vapor/vapor.git",
         "state": {
           "branch": null,
-          "revision": "6a365261bfb86308b0e170107a9da6a68b65ff93",
-          "version": "4.0.0-rc.3.1"
+          "revision": "2bfe7149d9786e2e601898cb10b9ba9072f60c0b",
+          "version": "4.10.0"
         }
       },
       {
@@ -141,8 +141,8 @@
         "repositoryURL": "https://github.com/vapor/websocket-kit.git",
         "state": {
           "branch": null,
-          "revision": "aac462481bcd3039d5db9a0fbe7f4e47eefe2295",
-          "version": "2.0.0-rc.1"
+          "revision": "021edd1ca55451ad15b3e84da6b4064e4b877b34",
+          "version": "2.1.0"
         }
       }
     ]
